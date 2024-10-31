@@ -1,0 +1,103 @@
+
+
+ul,ol{
+    list-style: none;
+}
+
+  /* ===commoncssstart */  
+.container{
+  width: 1140px;  
+  margin: 0 auto;
+
+}
+.box{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.button-part{
+
+ padding: 14px 40px;
+ color: #f3ebeb;
+ font-size: 16px;
+ font-weight: 600;
+ font-family: "Poppins", sans-serif;
+ display: inline-block;
+ transition: .6s;
+ border: 1px solid transparent;
+}
+.common-button a:hover{
+background: transparent;
+border-color: aliceblue;
+
+}
+/* ===commoncssend */
+/* ===navstart */
+nav{
+    background: rgb(63, 9, 59);
+    padding: 27px 0;
+    height: 700px;
+    
+}
+
+.logo{
+    width: 20%;
+    padding: 20px; 
+}
+.menu-part{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.button-part{
+    width: 20%;
+    
+}
+.menu-part ul{
+   display: flex;
+   column-gap: 17px;
+   color: #f3ebeb;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: "Poppins", sans-serif;
+ justify-content: flex-end;
+}
+.menu-part ul li{
+  transition: .5s;
+}
+.menu-part ul li:hover{
+   color: rgb(105, 212, 16);
+}
+.button-part a{
+   border-radius: 30%;
+    color: #f3ebeb;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    padding: 14px 30px;
+    display: inline-block;
+    border: 2px solid white;
+    transition: .5s;
+}
+.button-part a:hover{
+  background: skyblue; 
+    
+}
+
+.nav  .container .para h1{
+    font-size: 48px;
+    color:#fff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+}
+.nav  .container .para p{
+    font-size: 48px;
+    color:#fff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+}
+/* ===navsend */
+
